@@ -1,11 +1,9 @@
 numpy
-torch
-opencv_python
-torchvision
+opencv-python
 typing
-torchstat
-torchsummary
-ptflops
 matplotlib
-onnx
-onnxruntime
+argparse
+itertools
+tqdm
+torch
+torchvision

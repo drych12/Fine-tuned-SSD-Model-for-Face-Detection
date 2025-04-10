@@ -1,0 +1,13 @@
+python ./train.py \
+  --data_split ./cartoon/split \
+  --data_base C:/Users/PS/Downloads/dataset \
+  --net slim \
+  --num_epochs 160 \
+  --milestones 90,130 \
+  --lr 1e-3 \
+  --batch_size 128 \
+  --input_size 640 \
+  --checkpoint_folder ./cartoon/ \
+  --num_workers 16 \
+  --log_dir ./cartoon/logs \
+  --pretrained_ssd ./models/pretrained/version-slim-640.pth
